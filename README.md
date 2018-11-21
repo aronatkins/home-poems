@@ -22,5 +22,5 @@ The [`text`](text) directory contains the original transcriptions; one file
 per poem. The poem titles in these files are all in uppercase, to match the
 book.
 
-The [`doc`](doc) directory contains the content hosted by GitHub Pages at
-https://aronatkins.github.io/home-poems/. 
+The [`docs`](docs) directory contains the content hosted by GitHub Pages at
+https://aronatkins.github.io/home-poems/.
