@@ -1,0 +1,188 @@
+html {
+    font-family: serif;
+    /*background: #F8ECC2;*/
+    background: #F2EECB;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  margin:0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/* two scrollable columns https://stackoverflow.com/a/30306493/3000846 */
+nav {
+    float: left;
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+
+    padding: 0.5em;
+    padding-left: 1em;
+    
+    font-size: smaller;
+}
+
+.book {
+    float:left;
+    width: 80%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+
+    padding: 0.5em;
+}
+
+nav h4,h5 {
+    margin-top: .5em;
+    margin-bottom: 0em;
+}
+
+nav ul {
+    padding-left: 1.5em;
+    list-style-type: circle;
+}
+
+hr {
+    width: 50%;
+    height: 2px;
+    border: 0;
+    color: #654321;
+    background-color: #654321;
+   
+}
+
+/* 
+ * page is non-poem content (like the foreword). 
+ * 
+ * This content has the "leading" words in the first paragraph given uppercase
+ * type. The first character is bold and two-line drop-caps.
+ *
+ * All other paragraphs have a leading indent.
+*/
+
+div.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+ */
+div.box {
+}
+
+div.page {
+    max-width: 24em;
+    /*margin: auto;*/
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.title {
+    text-align: center;
+}
+
+.title div {
+    margin-top: 4em;
+}
+
+div.page h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.page.foreword {
+    max-width: 19em;
+}
+
+div.page p {
+    text-align: justify;
+    text-indent: 1em;
+}
+
+div.page p:first-of-type {
+    text-indent: 0em;
+}
+
+div.page p:first-of-type::first-letter {
+    font-weight: bold;
+    initial-letter: 2;
+    -webkit-initial-letter: 2;
+}
+
+div.page p .lead {
+    text-transform: uppercase;
+}
+
+div.page div.signature {
+    font-variant: small-caps;
+    text-align: right;
+    right-margin: 1em;
+}
+
+div.page div.date {
+    font-size: smaller;
+}
+
+/*
+* poem is poem content.
+*/
+div.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.poem {
+    max-width: 24em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+div.poem h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+div.poem h3, div.poem h4 {
+    text-align: center;
+    margin: 0em;
+}
+
+div.poem p {
+    white-space: nowrap;
+}
+
+div.poem p.stars {
+    text-align: center;
+}
+
+div.poem p.footnote {
+    font-size: smaller;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+div.close p {
+    white-space: nowrap;
+    text-align: center;
+    line-height: 1.5em;
+}
