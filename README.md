@@ -7,8 +7,8 @@ of poetry. Daniel W. Hoyt is [my](https://github.com/aronatkins)
 great-great-grandfather. My grandmother, Ruth (Wheeler) Atkins, was the
 daughter of Ruth Williams (Hoyt) Wheeler, who was the daughter of Rev. Hoyt.
 
-The biography in Home Poems mostly mirrors that in his [WikiTree
-entry](https://www.wikitree.com/wiki/Hoyt-579).
+The biography in Home Poems mostly mirrors the information contained in his
+[WikiTree entry](https://www.wikitree.com/wiki/Hoyt-579).
 
 The copy of _Home Poems_ used for this transcription has been handed down
 through my family. My copy came from my father.
