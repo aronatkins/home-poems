@@ -4,50 +4,43 @@ html {
     background: #F2EECB;
 }
 
-html, body {
-  height: 100%;
-  overflow: hidden;
-  margin:0;
+@media (max-width: 767px) {                  
+   nav {
+      display: none;
+   }
 }
 
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    text-decoration: underline;
-}
-
-/* two scrollable columns https://stackoverflow.com/a/30306493/3000846 */
-nav {
-    float: left;
-    width: 20%;
-    height: 100%;
-    overflow: auto;
-    box-sizing: border-box;
-
-    padding: 0.5em;
-    padding-left: 1em;
+@media (min-width: 768px) {
+    html, body {
+        height: 100%;
+        overflow: hidden;
+        margin:0;
+    }
     
-    font-size: smaller;
-}
+    /* two scrollable columns https://stackoverflow.com/a/30306493/3000846 */
+    nav {
+        float: left;
+        width: 20%;
+        height: 100%;
+        overflow: auto;
+        box-sizing: border-box;
 
-.book {
-    float:left;
-    width: 80%;
-    height: 100%;
-    overflow: auto;
-    box-sizing: border-box;
+        padding: 0.5em;
+        padding-left: 1em;
+        
+        font-size: smaller;
+    }
 
-    padding: 0.5em;
+    .book {
+        float:left;
+        width: 80%;
+        height: 100%;
+        overflow: auto;
+        box-sizing: border-box;
+
+        padding: 0.5em;
+        /*border-left: 2px solid #654321;*/
+    }
 }
 
 nav h4,h5 {
@@ -58,15 +51,6 @@ nav h4,h5 {
 nav ul {
     padding-left: 1.5em;
     list-style-type: circle;
-}
-
-hr {
-    width: 50%;
-    height: 2px;
-    border: 0;
-    color: #654321;
-    background-color: #654321;
-   
 }
 
 /* 
@@ -186,3 +170,30 @@ div.close p {
     text-align: center;
     line-height: 1.5em;
 }
+
+/* separate pages/poems with a brown half-page mark */
+hr {
+    width: 50%;
+    height: 2px;
+    border: 0;
+    color: #654321;
+    background-color: #654321;
+   
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
