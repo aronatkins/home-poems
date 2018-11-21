@@ -24,3 +24,33 @@ book.
 
 The [`docs`](docs) directory contains the content hosted by GitHub Pages at
 https://aronatkins.github.io/home-poems/.
+
+## Markup conventions
+
+Let's look at one stanza from "My Granddaughters":
+
+    <p>
+        Ruthie, dear, you blushing rose,<br/>
+        &emsp;  Have pity on a lover's woes,<br/>
+        Were I a happy, healthy boy,<br/>
+        &emsp;  I know where I would seek my joy.<br/>
+        "Piggly, Wiggly, Sir," she said.
+    </p>
+
+The `<p>` tag is used to mark the bounds of a stanza. This corresponds to
+a blank line between groups of poetry lines. The `<br/>` tag forces a line
+break within that "paragraph". The `&emsp;` asks that a "wide" space character
+be inserted before the next word and leaves us with the "ragged" style that is
+throughout Hoyt's poetry.
+
+Here is that same block of poetry as it would appear in the book:
+
+<blockquote>
+    <p>
+        Ruthie, dear, you blushing rose,<br/>
+        &emsp;  Have pity on a lover's woes,<br/>
+        Were I a happy, healthy boy,<br/>
+        &emsp;  I know where I would seek my joy.<br/>
+        "Piggly, Wiggly, Sir," she said.
+    </p>
+</blockquote>
