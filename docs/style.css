@@ -4,10 +4,10 @@ html {
     background: #F2EECB;
 }
 
-@media (max-width: 767px) {                  
-   nav {
-      display: none;
-   }
+@media (max-width: 767px) {
+    nav {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -60,7 +60,7 @@ nav ul {
  * type. The first character is bold and two-line drop-caps.
  *
  * All other paragraphs have a leading indent.
-*/
+ */
 
 div.box {
     display: flex;
@@ -127,8 +127,8 @@ div.page div.date {
 }
 
 /*
-* poem is poem content.
-*/
+ * poem is poem content.
+ */
 div.box {
     display: flex;
     align-items: center;
@@ -178,7 +178,6 @@ hr {
     border: 0;
     color: #654321;
     background-color: #654321;
-   
 }
 
 a:link {
@@ -196,4 +195,3 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
-
